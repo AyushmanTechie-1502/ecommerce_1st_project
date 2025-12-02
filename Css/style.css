@@ -1,0 +1,42 @@
+/*-- NAVigation Bar --*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 15px; 
+    width: 101%;
+}
+.navbar .logo {
+    font-size: 24px; 
+    background-color: red;
+    color: aliceblue;
+    width: auto;
+    padding: 10px;
+}
+
+/* 3. STYLE: Style the main navigation links */
+.nav-links a {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+/* IMPORTANT: The missing closing brace } was here in your original code, now fixed. */
+
+/* 4. LAYOUT & STYLE: Nav icons (Login/Cart) */
+.nav-icons {
+    display: flex; /* Makes the links side-by-side */
+    gap: 20px;     /* Adds 20px of space BETWEEN the links */
+}
+
+.nav-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
