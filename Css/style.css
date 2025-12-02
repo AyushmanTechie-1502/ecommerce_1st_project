@@ -1,42 +1,62 @@
-/*-- NAVigation Bar --*/
-
-*{
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+}
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+/*-- NAVigation Bar --*/
+
 .navbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 15px; 
-    width: 101%;
+    padding: 10px 15px;
+    width: 100%;
 }
 .navbar .logo {
-    font-size: 24px; 
+    font-size: 24px;
     background-color: red;
     color: aliceblue;
     width: auto;
     padding: 10px;
 }
-
-/* 3. STYLE: Style the main navigation links */
 .nav-links a {
     font-size: 1.2rem;
     margin: 0 15px;
     text-decoration: none;
     color: #333;
 }
-/* IMPORTANT: The missing closing brace } was here in your original code, now fixed. */
-
-/* 4. LAYOUT & STYLE: Nav icons (Login/Cart) */
 .nav-icons {
-    display: flex; /* Makes the links side-by-side */
-    gap: 20px;     /* Adds 20px of space BETWEEN the links */
+    display: flex;
+    gap: 20px;
 }
-
 .nav-icons a {
     text-decoration: none;
     color: #333;
     font-size: 1.2rem;
+}
+
+/*Banner Section*/
+
+.Banner {
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 30vh;
+    font-weight: 700;
+    font-size: 2rem;
+    background-image:url("../images/Gemini_Generated_Image_a5bwh3a5bwh3a5bw.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Banner a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
 }
